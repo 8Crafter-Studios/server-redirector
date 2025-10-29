@@ -1,39 +1,40 @@
 {
     "format_version": 2,
     "header": {
-        "name": "v1.0.0 8Crafter's Server Redirector",
+        "name": "v1.0.2 8Crafter's Server Redirector",
         "description": "Redirects all players to a server specified by IP and Port in the scripts/index.js file.",
-        "min_engine_version": [1, 21, 0],
+        "min_engine_version": [1, 21, 120],
         "uuid": "ea7c588b-b533-430c-a02f-e786dc8a45ea",
-        "version": [1, 0, 0]
+        "version": [1, 0, 2]
     },
     "modules": [
         {
             "type": "data",
             "uuid": "01c90f6c-20b2-4594-8050-1da6154510c1",
-            "version": [1, 0, 0]
+            "version": [1, 0, 2]
         },
         {
             "type": "script",
             "language": "javascript",
             "uuid": "a7a9ebe7-33ca-430c-beb3-fd9d26a8eb28",
             "entry": "scripts/index.js",
-            "version": [1, 0, 0]
+            "version": [1, 0, 2]
         }
     ],
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "1.18.0"
+            "version": "beta"
         },
         {
             "module_name": "@minecraft/server-admin",
-            "version": "1.0.0-beta"
+            "version": "beta"
         }
     ],
     "metadata": {
         "authors": ["8Crafter"],
         "url": "https://www.8crafter.com",
-        "product_type": "addon"
+        "product_type": "addon",
+        "license": "MIT"
     }
 }
